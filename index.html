@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurul Jadid</title>
+    <link rel="stylesheet" href="asset/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="asset/native/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Include JS -->
+    <script src="asset/bs/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="asset/img/logo/logo.png" class="logoNav" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link actives" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ppdb.html">PPDB</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tentang Kami
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                            <li><a class="dropdown-item" href="kegiatan.html">Kegiatan</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="contact.html">Hubungi Kami</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="berita.html">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kajian.html">Kajian</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--End Navbar-->
+
+    <!--Side Bar-->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h4 class="offcanvas-title name-pesantren" id="offcanvasExampleLabel">Nurul Jadid Al - Mas’udiyah</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul style="list-style: none;" class="side-list">
+
+                <li class="sidebar-item">
+                    <a href="index.html" class="sidebar-link actives">Home</a>
+                </li>
+
+                <li class="sidebar-item mt-4">
+                    <a class="sidebar-link" href="ppdb.html">
+                        PPDB
+                    </a>
+                </li>
+
+                <li class="sidebar-item mt-4">
+                    <a class="sidebar-link" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Tentang Kami <i class="bi bi-arrow-right-short"></i>
+                    </a>
+                </li>
+
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        <ul style="list-style: none;">
+                            <li style="margin-left: -30px;">
+                                <a href="profile.html" class="sidebar-link">Profile</a>
+                            </li>
+                            <li class="mt-4" style="margin-left: -30px;">
+                                <a href="kegiatan.html" class="sidebar-link">Kegiatan</a>
+                            </li>
+                            <li class="mt-4" style="margin-left: -30px;">
+                                <a href="contact.html" class="sidebar-link">Hubungi Kami</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <li class="sidebar-item mt-4">
+                    <a class="sidebar-link" href="berita.html">
+                        Berita
+                    </a>
+                </li>
+
+                <li class="sidebar-item mt-4">
+                    <a class="sidebar-link" href="galeri.html">
+                        Galeri
+                    </a>
+                </li>
+
+                <li class="sidebar-item mt-4">
+                    <a class="sidebar-link" href="kajian.html">
+                        Kajian
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+    <!--End Side Bar-->
+
+
+
+    <!--Carousel-->
+
+    <div class="container" data-aos="fade-down" data-aos-offset="300" data-aos-duration="3000">
+
+        <div class="row" style="margin-top: 20px;">
+
+            <div class="col-md-12 text-center">
+                <img src="asset/img/carousel/carsel.png" class="car-img" alt="">
+            </div>
+
+        </div>
+
+        <div class="row position-relative">
+
+            <div class="col-md-12 carousel-card">
+                <div class="cards">
+                    <div class="card-body pt-4">
+                        <h3 class="text-center title-carousel">PONDOK PESANTREN</h3>
+                        <h4 class="text-center name-title-carousel">Nurul Jadid Al - Mas’udiyah</h4>
+                        <p class="text-center content-carousel">"Pribadi saleh, mandiri, berilmu, berjuang dan berbakti kepada agama, masyarakat dan bangsa"</p>
+                        <div class="text-center pb-5">
+                            <a href="" class="btn daftar-btn">Daftar</a>
+                            <a href="" class="btn">Hubungi Kami</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <!--End Carousel-->
+
+
+    <!--About Us-->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <h3 class="section-title text-center" data-aos="fade-down" data-aos-offset="300" data-aos-duration="1500">Tentang Kami</h3>
+                <div class="divider-section" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500"></div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <h5 class="sub-title-about" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500">Tentang Pondok Pesantren Nurul Jadid
+                </h5>
+                <p class="content-about" data-aos="zoom-out" data-aos-offset="300">Duis sagittis, turpis in ullamcorper venenatis, ligula nibh porta dui, sit amet rutrum enim massa in ante. Curabitur in justo at lorem laoreet ultricies. Nunc ligula felis, sagittis eget nisi vitae, sodales vestibulum purus. Vestibulum
+                    nibh ipsum, rhoncus vel sagittis nec, placerat vel justo. Duis faucibus sapien eget tortor finibus, a eleifend lectus dictum. Cras tempor convallis magna id rhoncus. Suspendisse potenti. Nam mattis faucibus imperdiet. Proin tempor
+                    lorem at neque tempus aliquet. Phasellus at ex volutpat, varius arcu id, aliquam lectus. Vestibulum mattis felis quis ex pharetra luctus. Etiam luctus sagittis massa, sed iaculis est vehicula ut.</p>
+                <a href="" class="more-about">Lihat Selengkapnya</a>
+            </div>
+
+            <div class="col-md-6 text-center" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="asset/img/carousel/about.png" class="about-img" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--End About Us-->
+
+    <!--Berita Terkini-->
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <h3 class="section-title" data-aos="zoom-out" data-aos-offset="300" data-aos-duration="1500">Berita Terbaru</h3>
+                <div class="divider-section-1" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="1500"></div>
+            </div>
+
+        </div>
+
+        <div class="row mt-5">
+
+            <div class="col-md-4 mt-3" data-aos="zoom-in" data-aos-duration="1500">
+                <div class="card berita">
+                    <div class="card-body">
+                        <img src="asset/img/carousel/berita1.png" class="berita-img" alt="">
+                        <h3 class="title-berita">Peserta Juara Lomba Membaca Al-Qur'an</h3>
+                        <div class="mt-auto">
+                            <a href="" class="btn btn-success">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-3" data-aos="zoom-in" data-aos-duration="1500">
+                <div class="card berita">
+                    <div class="card-body">
+                        <img src="asset/img/carousel/about.png" class="berita-img" alt="">
+                        <h3 class="title-berita">Pembagian Hadiah Pemenang Lomba</h3>
+                        <div class="mt-auto">
+                            <a href="" class="btn btn-success">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-3" data-aos="zoom-in" data-aos-duration="1500">
+                <div class="card berita">
+                    <div class="card-body">
+                        <img src="asset/img/carousel/berita2.png" class="berita-img" alt="">
+                        <h3 class="title-berita">Pembagian Sembako</h3>
+                        <div class="mt-auto">
+                            <a href="" class="btn btn-success">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Berita Terkini-->
+
+
+    <!--Kajian Terkini-->
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <h3 class="section-title text-center" data-aos="fade-down" data-aos-offset="300" data-aos-duration="1500">Kajian Terbaru</h3>
+                <div class="divider-section" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500"></div>
+            </div>
+
+        </div>
+
+        <div class="row mt-5">
+
+            <div class="col-md-4 mt-3" data-aos="zoom-in" data-aos-duration="1500">
+                <div class="card berita">
+                    <div class="card-body">
+                        <img src="asset/img/carousel/berita1.png" class="berita-img" alt="">
+                        <h3 class="title-berita">"Meneladani Akhlak Mulia Rasulullah SAW dalam Kehidupan Sehari-hari"</h3>
+                        <div class="mt-auto">
+                            <a href="" class="btn btn-success">Lihat Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-3" data-aos="zoom-in" data-aos-duration="1500">
+                <div class="card berita">
+                    <div class="card-body">
+                        <img src="asset/img/carousel/about.png" class="berita-img" alt="">
+                        <h3 class="title-berita">"Menggapai Kesuksesan Dunia dan Akhirat dengan Berlandaskan Aqidah yang Benar"
+                        </h3>
+                        <div class="mt-auto">
+                            <a href="" class="btn btn-success">Lihat Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-3" data-aos="zoom-in" data-aos-duration="1500">
+                <div class="card berita">
+                    <div class="card-body">
+                        <img src="asset/img/carousel/berita2.png" class="berita-img" alt="">
+                        <h3 class="title-berita">"Menggali Hikmah di Balik Kisah Para Sahabat Rasulullah SAW"
+                        </h3>
+                        <div class="mt-auto">
+                            <a href="" class="btn btn-success">Lihat Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Kajian Terkini-->
+
+    <!--Contact-->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <h3 class="section-title text-center" data-aos="zoom-out" data-aos-duration="1500">Hubungi Kami</h3>
+                <div class="divider-section" data-aos="fade-up" data-aos-duration="1500"></div>
+            </div>
+
+        </div>
+
+        <div class="row mt-5">
+
+            <div class="col-md-4">
+                <div class="card-contact text-center">
+                    <p class="icon-contact"><i class="bi bi-whatsapp"></i></p>
+                    <p class="contact-information">+62 812 3456 7891</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card-contact text-center">
+                    <p class="icon-contact"><i class="bi bi-telephone"></i></p>
+                    <p class="contact-information">+62 812 3456 7891</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card-contact text-center">
+                    <p class="icon-contact"><i class="bi bi-envelope"></i></p>
+                    <p class="contact-information">email@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.5331624923683!2d106.76508671419715!3d-6.580442266156096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c4f906e40827%3A0x6b93a4462670547c!2sSMK%20Infokom%20Kota%20Bogor!5e0!3m2!1sid!2sid!4v1678602679434!5m2!1sid!2sid"
+                    class="maps" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!--End Contact-->
+
+    <!--Footer-->
+    <div style="background-color: #00B74A">
+
+        <div class="container pb-5 pt-2">
+
+            <div class="row">
+
+                <div class="col-md-6 mt-5">
+                    <p class="title-nav-foot mb-3">Nurul Jadid Al - Mas’udiyah</p>
+
+                    <a style="margin-left: 0;text-decoration: none;" href="" class="icon-footer">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="" style="text-decoration: none;" class="icon-footer ms-2">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="" style="text-decoration: none;" class="icon-footer ms-2">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+
+                </div>
+
+
+
+
+                <div class="col-md-6 mt-5">
+                    <p class="footer-title">Hubungi Kami</p>
+
+                    <br>
+
+                    <p class="contact-footer">
+                        <i class="bi bi-whatsapp"></i> +62 812 3456 5488</p>
+                    <p class="contact-footer">
+                        <i class="bi bi-instagram"></i> ponpes@official</p>
+                    <p class="contact-footer">
+                        <i class="bi bi-facebook"></i> Ponpes Nurul Jadid</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--End Footer-->
+
+
+
+    <!--Copyright-->
+
+    <div style="background-color: #000;">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12 pt-3 text-center" style="color: #fff;">
+                    <p class="copy-footer">Copyright &copy; 2023 Muhamad Nazar</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!--End Copyright-->
+
+
+    <!--Script-->
+    <!-- load jQuery and Bootstrap JS -->
+    <script src="asset/bs/js/slim.js"></script>
+    <script src="asset/bs/js/popper.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- load custom script -->
+    <script src="asset/native/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
